@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/about.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+<div id="page">
+  <img id="logo" src="img/Doofenshmirtzlogo.png"/>
+  <div id="menu">
+    <menu>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="writings.html">Writings</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </menu>
+  </div>
+  <div id="banner">
+
+  </div>
+
+  <h1>Git Tutorial</h1>
+  <li><a href="https://snkruti.github.io/writings.html">Linux Tutorial</a></li>
+  <li><a href="https://anmorales-hub.github.io/writings.html">HTML/CSS</a></li>
+
+  <div id="text">
+    <h2>Getting Started With GitHub</h2>
+    <p>First sign into GitHub and create a new repository. Then give your repository a name (and a README and gitignore
+      if you want). Finally, make your repository.</p>
+    <h2>Forking vs. Cloning</h2>
+    <p>Forking is a feature on GitHub that allows a user to take a copy of someone else's repository and use it for
+      their own personal use with the ability to make pull requests. Cloning is a Git concept extremely similar to
+      forking, with the main difference being that cloning allows a person to make an unconnected copy of a repository
+      to place in a directory of their choosing.</p>
+    <h2>Branches</h2>
+    <p>Branches allow users to work on separate tasks in a project. For every Git repository, there is a master branch,
+      which functions as the source branch where changes are finalized. From then on, a user can create their own branch
+      (essentially a copy of the master branch) where they can work on their designated assignments separate from
+      everyone else contributing to the repository. By giving everyone their own separate workspace instead of piling
+      everything in the master branch, branching helps ensure that multiple contributors don't interfere with each
+      other's work.</p>
+    <h2>Pull Request</h2>
+    <p>When a user's work on their branch is ready to be added to the master branch, it's time for a pull request. A
+      pull request allows a branch to be submitted to the repository owner to see if it can be successfully merged with
+      the master branch. However, when there are major difference in two branches that are set to be merged, a merge
+      conflict is created, barring the merge from happening until the owner settles the conflicts. By choosing to
+      resolve the conflicts within GitHub, the owner can adjust the areas where merge conflicts occur to make sure that
+      the merge can be pulled off. After resolving the merge conflicts, the merge can successfully take place and
+      everyone can go about their own business.</p>
+    <h2>Adding a Collaborator</h2>
+    <p>First, go settings on your GitHub repository. Then go to the 'Collaborators' Tab and add a collaborator. Finally,
+      enter your password and the person's username/email.</p>
+  </div>
+  <img id="sidebar" src="img/cryingcat.jpg"/>
+  <div id="page-container">
+    <div id="content-wrap"></div>
+    <footer id="copyright">
+      © Aaron Leu - 2019
+    </footer>
+  </div>
+</div>
+
+<script src="js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+    window.ga = function () {
+        ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-153654717-1', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
